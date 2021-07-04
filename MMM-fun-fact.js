@@ -11,6 +11,7 @@ Module.register("MMM-fun-fact",{
     start: function() {
         this.lastFactIndex = -1
         setInterval(() => {
+            console.log("Updating")
             this.updateDom(this.config.fadeSpeed)
         }, this.config.updateInterval)
     },
