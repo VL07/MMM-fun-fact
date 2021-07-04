@@ -5,6 +5,6 @@ module.exports = NodeHelper.create({
 
     // On start debug
     start: function() {
-        Log.log(this.name + ' is started!');
+        console.log(this.name + ' is started!');
     }
 });
