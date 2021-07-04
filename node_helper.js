@@ -6,11 +6,5 @@ module.exports = NodeHelper.create({
     // On start debug
     start: function() {
         Log.log(this.name + ' is started!');
-    },
-
-    // On stop debug
-    stop: function() {
-        console.log("Shutting down " + this.name);
-        this.connection.close();
     }
 });
