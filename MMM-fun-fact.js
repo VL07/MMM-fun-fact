@@ -6,9 +6,10 @@ Module.register("MMM-fun-fact",{
         fadeSpeed: 4000
 	},
 
-    lastFactIndex = -1,
+    lastFactIndexUsed = -1,
 
     start: function() {
+        this.lastFactIndex = -1
         setInterval(() => {
             this.updateDom(this.config.fadeSpeed)
         }, this.config.updateInterval)
