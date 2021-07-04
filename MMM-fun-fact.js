@@ -42,10 +42,11 @@ Module.register("MMM-fun-fact",{
 	getDom: function() {
 		var wrapper = document.createElement("div");
         var fact = this.randomFact()
-		wrapper.innerHTML = `
+		/* wrapper.innerHTML = `
             <h2>${this.config.header}</h2>
             <h3>${fact}</h3>
-        `;
+        `; */
+        wrapper.innerHTML = "hello"
 		return wrapper;
 	}
 });
