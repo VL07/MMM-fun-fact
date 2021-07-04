@@ -1,7 +1,7 @@
 Module.register("MMM-fun-fact",{
 	// Default module config.
 	defaults: {
-		header: "",
+		header: "Fun fact",
         updateInterval: 30000,
         fadeSpeed: 4000
 	},
